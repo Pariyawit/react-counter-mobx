@@ -6,6 +6,7 @@ export class Counter implements ICounter {
   add() {
     this.count++;
   }
+
   subtract() {
     this.count--;
   }

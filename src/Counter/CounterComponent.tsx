@@ -6,7 +6,6 @@ type Props = {
 };
 
 const CounterComponent = ({ counter }: Props) => {
-  // This not rerender when counter change
   return (
     <div>
       <h2>{counter.count}</h2>
