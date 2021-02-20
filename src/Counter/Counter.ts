@@ -1,19 +1,12 @@
-export interface ICounter {
-  add: () => void;
-  subtract: () => void;
-  count: number;
-}
+import { ICounter } from './ICounter';
 
 export class Counter implements ICounter {
-  counter: number = 0;
+  count: number = 0;
 
   add() {
-    this.counter++;
+    this.count++;
   }
   subtract() {
-    this.counter--;
-  }
-  get count(): number {
-    return this.counter;
+    this.count--;
   }
 }
