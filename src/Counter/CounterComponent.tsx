@@ -9,7 +9,7 @@ const CounterComponent = ({ counter }: Props) => {
   // This not rerender when counter change
   return (
     <div>
-      <h1>{counter.count}</h1>
+      <h2>{counter.count}</h2>
       <div>
         <button onClick={() => counter.add()}>+ add</button>
       </div>
